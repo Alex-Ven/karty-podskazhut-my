@@ -1,9 +1,9 @@
 :root {
-  --accent-color: #ffab6b;
+  --accent-color: #4f3cf5;
   --text-color: #312a4e;
   --bg-color: #f3efec;
-  --main-font: Raleway, sans-serif;
-  --accent-font: "STIX Two Text", serif;
+  --main-font: raleway, sans-serif;
+  --accent-font: 'STIX Two Text', serif;
 }
 
 *,
@@ -34,7 +34,7 @@ figure {
 }
 
 .theme_dark {
-  --text-color: #B3B3B3;
+  --text-color: #b3b3b3;
   --bg-color: #171717;
   --accent-color: transparent;
 }
@@ -65,7 +65,7 @@ figure {
 
 .content__title {
   font-size: 30px;
-  margin: 7% 0 2.5% 0;
+  margin: 7% 0 2.5%;
 }
 
 .content__text-block {
@@ -100,7 +100,7 @@ figure {
 }
 
 .content__list-item::before {
-  content: "";
+  content: '';
   position: absolute;
   inline-size: 15px;
   block-size: 15px;
@@ -170,7 +170,7 @@ figure {
 }
 
 .colored-text::after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   inline-size: calc(100% + 8px);
@@ -217,7 +217,7 @@ figure {
 }
 
 .header__theme-button_is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   inline-size: calc(100% + 4px);
@@ -232,10 +232,11 @@ figure {
   background-image: url(../images/pattern.svg);
 }
 
-.theme_dark .content__text-block_type_first-lettered
+.theme_dark
+  .content__text-block_type_first-lettered
   .content__paragraph:first-of-type::first-letter {
-    border: 1px solid currentColor;
-  }
+  border: 1px solid currentColor;
+}
 
 .theme_dark .content__list-item::before {
   background-image: url(../images/marker-dark.svg);
@@ -252,7 +253,7 @@ a:focus-visible {
 }
 
 .header__theme-button:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 button:hover,
@@ -265,7 +266,7 @@ button:disabled {
 }
 
 .footer {
- text-align: center;
+  text-align: center;
   padding: 2.5%;
   margin-block-start: 10%;
   border-block-start: 1px solid currentColor;

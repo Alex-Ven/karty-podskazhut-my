@@ -45,7 +45,7 @@ open public/index.html
 # or simply double-click the file
 
 > No build tools or dependencies required — works out of the box!
-
+```
 ---
 
 ## Author
@@ -66,6 +66,3 @@ Have ideas? Open an [Issue](https://github.com/Alex-Ven/karty-podskazhut-my/issu
 
 **Stack**: `HTML | CSS | JavaScript | BEM | Responsive`  
 **Tags**: `vanilla-js`, `frontend`, `educational-project`, `creative-tool`
-```
-
----

@@ -43,3 +43,29 @@ cd karty-podskazhut-my
 # 2. Open index.html in your browser
 open public/index.html
 # or simply double-click the file
+
+> No build tools or dependencies required — works out of the box!
+
+---
+
+## Author
+
+**Alexander Venedyukhin** — Aspiring Frontend / Full Stack Developer  
+[LinkedIn](https://linkedin.com/in/alexander-venedyukhin-1288abb2) | [GitHub](https://github.com/Alex-Ven)
+
+> Open to **Junior Fullstack**, **Frontend/Backend developer** roles
+
+---
+
+## Support the Project
+
+Like it? Give it a ⭐ star!  
+Have ideas? Open an [Issue](https://github.com/Alex-Ven/karty-podskazhut-my/issues)
+
+---
+
+**Stack**: `HTML | CSS | JavaScript | BEM | Responsive`  
+**Tags**: `vanilla-js`, `frontend`, `educational-project`, `creative-tool`
+```
+
+---
